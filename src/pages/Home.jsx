@@ -134,7 +134,7 @@ const scrollToSection = (id) => {
   }
 >
             <img
-              src="/android.png"
+              src="/images/android.png"
               alt=""
             />
 
