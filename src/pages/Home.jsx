@@ -1,6 +1,6 @@
 import "../styles/Home.css";
 import { useState, useEffect } from "react";
-import { Menu, ArrowRight, PlayCircle, LayoutGrid } from "lucide-react";
+import { Menu, ArrowRight, LayoutGrid } from "lucide-react";
 import { FiInstagram, FiGithub } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 
