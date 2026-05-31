@@ -258,6 +258,15 @@ const scrollToSection = (id) => {
 </button>
 
 <button
+  onClick={() => {
+    setShowPreview(true);
+    setMenuOpen(false);
+  }}
+>
+  View Screens
+</button>
+
+<button
   onClick={() =>
     scrollToSection("download")
   }
@@ -355,7 +364,7 @@ const scrollToSection = (id) => {
                 </h4>
 
                 <span>
-                  Latest Version 1.2.0
+                  Latest Version 1.6.12
                 </span>
 
               </div>
@@ -715,7 +724,7 @@ const scrollToSection = (id) => {
 
       <span>Latest Version</span>
 
-      <h4>1.2.0</h4>
+      <h4>1.6.12</h4>
 
     </div>
 
@@ -723,7 +732,7 @@ const scrollToSection = (id) => {
 
       <span>APK Size</span>
 
-      <h4>18.4 MB</h4>
+      <h4>25 MB</h4>
 
     </div>
 
@@ -732,7 +741,10 @@ const scrollToSection = (id) => {
   <button
   className="download-apk-btn"
   onClick={() =>
-    alert("APK coming soon!")
+    window.open(
+    "https://github.com/1enk-in/iou-app/releases/tag/v1.6.12",
+    "_blank"
+  )
   }
 >
 
@@ -884,6 +896,14 @@ const scrollToSection = (id) => {
     >
       Download
     </button>
+
+    <button
+  onClick={() => {
+    setShowPreview(true);
+  }}
+>
+  View Screens
+</button>
 
     <button
       onClick={() =>
