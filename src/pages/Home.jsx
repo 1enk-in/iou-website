@@ -94,10 +94,10 @@ const faqs = [
   },
 
   {
-    question: "Can I use IOU offline?",
-    answer:
-      "Yes. You can view balances, transactions, and add entries even without internet. Data syncs automatically when you're back online."
-  },
+  question: "Can I use IOU offline?",
+  answer:
+    "IOU lets you access the app even when you're offline and clearly shows your connection status. Features that require syncing, such as creating transactions or sending reminders, will be available once you're back online."
+},
 
   {
     question: "Is my data secure?",
