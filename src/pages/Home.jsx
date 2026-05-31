@@ -576,12 +576,12 @@ const scrollToSection = (id) => {
       <WifiOff size={24} />
     </div>
 
-    <h3>Works Offline</h3>
+    <h3>Connection Aware</h3>
 
-    <p>
-      Add and view even
-      without internet.
-    </p>
+<p>
+  Get clear offline status
+  and reconnect seamlessly.
+</p>
 
   </div>
 
